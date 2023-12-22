@@ -1,0 +1,36 @@
+.container{
+    width:600px;
+    margin: 50px auto;
+    border:2px solid lightgray;
+    border-radius: 20px;
+    text-align: center;
+}
+.profile{
+    position: relative;    
+}
+
+.cover_photo{
+    width:100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.profile_photo{
+    position:absolute;
+    bottom:0;
+    margin-bottom: -70px;
+    left:35%;
+    border-radius: 50%;
+    border:5px solid white;
+}
+
+.name{
+    margin-top:100px;
+    font-size:50px
+}
+.desc{
+    color:grey;
+    font-size:40px;
+}
+
+
